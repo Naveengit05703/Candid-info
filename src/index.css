@@ -1,0 +1,43 @@
+*{
+  font-family: 'roboto';
+  margin: 0;
+}
+.title-text {
+  padding-top: 5vh;
+    color: #00013a;
+    position: relative;
+    height: 7vh;
+    font-size: 24px;
+    display: block;
+}
+
+
+.right-frame h3 {
+  width: -webkit-fill-available;
+  text-align: left;
+  left: 22px;
+  position: relative;
+  margin-top: 16px;
+  margin-bottom: 10px;
+}
+
+.style{
+  position: relative;
+  display: block;
+}
+.edu-big{
+  width: 120vh;
+}
+
+.head-text {
+  text-align: left;
+    left: 10px;
+    position: relative;
+}
+
+.MuiFormControl-root {
+  padding-bottom: 7px !important;
+}
+.file-upload {
+  background-color: #0fb2f2 !important;
+}

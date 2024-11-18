@@ -1,0 +1,40 @@
+.edu-frame{
+    display: flex;
+      position: relative;
+      background-color: #ffffff;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-content: stretch;
+      justify-content: space-around;
+      align-items: stretch;
+      border-radius: 12px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+  }
+  .blue-text {
+    color: #3778f6;
+  }
+  .content{
+    width: 100%;
+    text-align: start;
+ padding-left: 15px;
+  }
+  
+  
+  .edu-text{
+    text-align: start;
+  left: 5px;
+  }
+  .min-text{
+    left: 1px;
+  }
+
+  .edu-input {
+    width: 96% !important;
+  }
+
+  .edu-input .css-1iw3t7y-MuiFormControl-root, .edu-input .css-28116y-MuiAutocomplete-root, .edu-input .css-1e9amrw-MuiAutocomplete-root {
+    width: 100% !important;
+  }
+
+  

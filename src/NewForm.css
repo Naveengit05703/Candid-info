@@ -1,0 +1,153 @@
+.container {
+    display: block;
+    width: 100%;
+    height: 100%;
+    /* background-color: #f7f7f7; */
+    background-color: #CCC;
+  }
+  .nav-frame {
+    height: 10vh;
+    display: flex;
+    /* background: #f7f7f7; */
+    background: #CCC;
+    position: relative;
+    text-align: justify;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-around;
+}
+
+
+.top-frame {
+  top: 7vh;
+  height: 24vh;
+  background-color: #ffffff;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: stretch;
+  justify-content: space-around;
+  align-items: center;
+  text-align: justify;
+}
+
+.middle-frame {  
+    height: 100%;
+    top: 5vh;
+    float: left;
+    display: block;
+    position: relative;
+    padding-right: 30px;
+}
+
+.left-frame {
+  float: left;
+    display: block;
+    width: 29%;
+    position: relative;
+    padding-right: 8px;
+    left: 10px;
+    top: 20px;
+}
+
+.left-frame h5 {
+  text-align: left;
+    left: 15px;
+    position: relative;
+}
+
+.right-frame {
+    float: left;
+    display: flex;
+    top: 10px;
+    left: 15px;
+    width: 70%;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+    align-items: stretch;
+}
+.top-frame .css-quhxjy-MuiInputBase-root-MuiOutlinedInput-root {
+  background-color: #e6f1f9 !important;
+}
+
+.top-frame .css-1xp5r68-MuiFormControl-root-MuiTextField-root::placeholder {
+  color: #71b9b3 !important;
+}
+.profile-frame {
+  width: 100%;
+  height: auto;
+  float: left;
+  display: block;
+  position: relative;
+  top: 1vh;
+}
+
+.avatar-frame {
+  float:left;
+  display: inline;
+  width: 37%;
+  position: relative;
+}
+
+.name-frame {
+  float:left;
+  display: inline;
+  width: 60%;
+  top: 47px;
+  position: relative;
+}
+.name-frame h2{
+  bottom: 10px;
+  position: relative;
+}
+.css-18k2bs-MuiAvatar-root {
+  width: 140px !important;
+  height: 140px !important;
+}
+.info-frame {
+  width: 94%;
+  height: auto;
+  float: left;
+  display: block;
+  position: relative;
+  background-color: #ffffff;
+  margin: 29px 3px;
+  border-radius: 12px;
+  padding: 28px 10px;
+}
+
+.info-text {
+  text-align: left;
+    align-content: baseline;
+    align-content: stretch;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0px 10px;
+    padding: 14px 0px;
+    line-height: 1.5rem;
+}
+.next{
+  width: 100%;
+  margin-top: 30px;
+}
+.next button{
+  padding: 10px 100px;
+  background-color: #007ec1;
+}
+.next-size{
+  font-size: 20px;
+}
+.end{
+    display:inline-block;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    width: 100%;
+  }

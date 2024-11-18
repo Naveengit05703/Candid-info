@@ -1,0 +1,120 @@
+.information-frame {
+    display: flex;
+    position: relative;
+    background-color: #ffffff;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-around;
+    align-items: stretch;
+    border-radius: 12px;
+    margin-top: 10px;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+.big{
+    width: 30vw;
+  }
+  .min-input{
+  top:20px;
+  width: 18vw;
+  }
+  .min-dob{
+    .css-1dune0f-MuiInputBase-input-MuiOutlinedInput-input {
+      font: inherit;
+      letter-spacing: inherit;
+      color: currentColor;
+      padding: 4px 0 5px;
+      border: 0;
+      background: none;
+      height: 0.4375em;
+      -webkit-tap-highlight-color: transparent;
+      display: block;
+      min-width: 0;
+      width: 5vw;
+      -webkit-animation-name: mui-auto-fill-cancel;
+      animation-name: mui-auto-fill-cancel;
+      -webkit-animation-duration: 10ms;
+      animation-duration: 10ms;
+      padding: 16.5px 14px;
+      padding-right: 0;
+  }
+  }
+  .right-big{
+    .css-1pzfmz2-MuiInputBase-input-MuiOutlinedInput-input {
+      font: inherit;
+      letter-spacing: inherit;
+      color: currentColor;
+      padding: 4px 0 5px;
+      border: 0;
+      box-sizing: content-box;
+      background: none;
+      height: 6.4375em;
+      margin: 0;
+      -webkit-tap-highlight-color: transparent;
+      display: block;
+      min-width: 0;
+      width: 28vw;
+      -webkit-animation-name: mui-auto-fill-cancel;
+      animation-name: mui-auto-fill-cancel;
+      -webkit-animation-duration: 10ms;
+      animation-duration: 10ms;
+      padding-top: 1px;
+      padding: 16.5px 14px;
+      padding: 8.5px 14px;
+     
+  }
+  }
+ 
+  .middle{
+    width:13vw;
+  }
+  .txt{
+    text-align: start;
+  }
+  .min-text{
+    text-align: start;
+    left: 3px;
+  }
+  .info-part{
+    display: flex;
+  }
+  .info-left{
+    width: 50%;
+  }
+  .info-left .MuiFormControl-root textarea{
+    height: 120px !important;
+    width: 400px;
+  }
+  
+  .info-right{
+    width: 49%;
+  }
+  .info-right .MuiFormControl-root{
+    margin-right: 15px;
+  }
+
+  .info-last {
+    float: left;
+    position: relative;
+    display: flex;
+;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    padding-left: 20px;
+  }
+
+  .min{
+    width: 8vw;
+  }
+  .min-1{
+    width: 17vw;
+  }
+  .min.min-1{
+    margin: 0px;
+  }
+  

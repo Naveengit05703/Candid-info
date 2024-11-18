@@ -1,0 +1,43 @@
+.ADD-frame{
+      display: flex;
+      position: relative;
+      background-color: #ffffff;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-content: stretch;
+      justify-content: space-around;
+      align-items: stretch;
+      border-radius: 12px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      width: 100%;
+      padding-left: 15px;
+  }
+  .ADD-frame h5{
+    width: 100%;
+    text-align: start;
+    padding-left: 5px;
+  }
+  .cont{
+    text-align: left;
+    left: 5px;
+  }
+  .Add-text{
+    width: 100%;
+    text-align: left;
+  }
+  .Add-input{
+    width: 100% !important;
+  }
+  .Add-input .css-1iw3t7y-MuiFormControl-root {
+    width: 98% !important;
+  }
+  .input-text{
+    text-align: left;
+  }
+
+  .Add-input .css-28116y-MuiAutocomplete-root {
+    width: 100%
+  }
+  
+  
