@@ -2,26 +2,12 @@ import React from "react";
 import Stack from "@mui/material/Stack";
 import Button from "@mui/material/Button";
 import TextField from "@mui/material/TextField";
-import Avatar from "@mui/material/Avatar";
 import { FormControl, FormLabel } from "@mui/material";
-import NoteAddIcon from "@mui/icons-material/NoteAdd";
-import { styled } from "@mui/material/styles";
 import { Exper } from "./Exper";
 import { InfoForm } from "./InfoForm";
 import { Footer } from "./Footer";
 import './NewForm.css';
-
-const VisuallyHiddenInput = styled("input")({
-  clip: "rect(0 0 0 0)",
-  clipPath: "inset(50%)",
-  height: 1,
-  overflow: "hidden",
-  position: "absolute",
-  bottom: 0,
-  left: 0,
-  whiteSpace: "nowrap",
-  width: 1,
-});
+import { Left } from "./Left";
 
 function newForm() {
   return (
@@ -70,39 +56,7 @@ function newForm() {
         </FormControl>
       </div>
       <div className="middle-frame">
-        <div className="left-frame">
-          <div className="profile-frame">
-            <div className="avatar-frame">
-              <Avatar alt="Avatar" src="" />
-            </div>
-            <div className="name-frame">
-              <h2>Syed Mohseen</h2>
-              <Button
-                className="file-upload"
-                component="label"
-                role={undefined}
-                variant="contained"
-                tabIndex={-1}
-                startIcon={<NoteAddIcon />}
-              >
-                Resume Upload
-                <VisuallyHiddenInput
-                  type="file"
-                  onChange={(event) => console.log(event.target.files)}
-                  multiple
-                />
-              </Button>
-            </div>
-          </div>
-          <div className="info-frame">
-            <h3 className="head-text">Complete the profile</h3>
-            <span className="info-text">
-              To successfully finalize the candidate profile,it is imperative to
-              provide all required information in each designated section.
-            </span>
-            <h5>Syed Mohseen</h5>
-          </div>
-        </div>
+        <Left/>
         <div className="right-frame">
           <InfoForm />
           <Exper />

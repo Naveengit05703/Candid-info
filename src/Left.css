@@ -1,0 +1,116 @@
+.left-frame {
+    float: left;
+      display: block;
+      width: 29%;
+      position: relative;
+      padding-right: 8px;
+      left: 10px;
+      top: 20px;
+  }
+  
+  .left-frame h5 {
+    text-align: left;
+      left: 15px;
+      position: relative;
+  }
+  .profile-frame {
+    width: 100%;
+    height: auto;
+    float: left;
+    display: block;
+    position: relative;
+    top: 1vh;
+  }
+  
+  .avatar-frame {
+    float:left;
+    display: inline;
+    width: 37%;
+    position: relative;
+  }
+  
+  .name-frame {
+    float:left;
+    display: inline;
+    width: 60%;
+    top: 47px;
+    position: relative;
+  }
+  .name-frame h2{
+    bottom: 10px;
+    position: relative;
+  }
+  .css-18k2bs-MuiAvatar-root {
+    width: 140px !important;
+    height: 140px !important;
+  }
+  .info-frame {
+    width: 94%;
+    height: auto;
+    float: left;
+    display: block;
+    position: relative;
+    background-color: #ffffff;
+    margin: 29px 3px;
+    border-radius: 12px;
+    padding: 28px 10px;
+  }
+  
+  .info-text {
+    text-align: left;
+      align-content: baseline;
+      align-content: stretch;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      align-items: flex-start;
+      margin: 0px 10px;
+      padding: 14px 0px;
+      line-height: 1.5rem;
+  }
+  .info-frame h6{
+    color: #d20303;
+    text-align: left;
+    margin-left: 5px;
+    margin-top: 5px;
+    padding-left: 10px;
+    display: block;
+  }
+  .Box{
+    display: flex;
+    justify-content:space-around;
+    margin-left: 10px;
+    padding: 5px;
+    gap: 10px;
+
+  }
+  .Box.css-1cmd31o-MuiSlider-thumb{
+    width: 20px;
+    height: 20px;
+  }
+  .Box.css-yg0zaj-MuiSlider-root{
+    width: 160%;
+    height: 10px;
+  }
+.edit-icon{
+    border-radius: 50%;
+    background-color: rgb(3, 148, 220);
+    color: white;
+    padding: 5px;
+}
+.edit-icon-in{
+    border-radius: 50%;
+    background-color: #a9a9a9;
+    color: white;
+    padding: 5px;
+}
+
+.check-active{
+    color:  rgb(3, 148, 220);
+    padding-right: 10px;
+}
+.check-in-active{
+    color:  #a9a9a9;
+    padding-right: 10px;
+}
